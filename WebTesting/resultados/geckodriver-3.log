@@ -1,0 +1,19 @@
+1704735313884	geckodriver	INFO	Listening on 127.0.0.1:59105
+1704735314423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59106" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\a871717\\AppData\\Local\\Temp\\rust_mozprofileDE3HWW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704735314997	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1704735315235	Marionette	INFO	Listening on port 59113
+Read port: 59113
+WebDriver BiDi listening on ws://127.0.0.1:59106
+1704735315351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59106/devtools/browser/be0a2c9e-c017-4fd1-9beb-2ad62babfbfd
+JavaScript warning: https://www.amazon.com.br/, line 2145: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 
+JavaScript warning: https://www.amazon.com.br/Eletronicos-e-Tecnologia/b/?ie=UTF8&node=16209062011&ref_=nav_cs_electronics, line 59714: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1704735323104	Marionette	INFO	Stopped listening on port 59113
+JavaScript warning: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51xW9OcNwJL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11YA5PIFcPL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21LOBHtNUsL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01qR6OIfeQL.js_.js?AUIClients/AmazonUI&6JeFenhM#568321-T1, line 16: Script terminated by timeout at:
+d</delay/<@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51xW9OcNwJL.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21BJeD9yjcL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11YA5PIFcPL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21LOBHtNUsL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01qR6OIfeQL.js_.js?AUIClients/AmazonUI&6JeFenhM#568321-T1:16:200
+
+Dynamically enable window occlusion 1
