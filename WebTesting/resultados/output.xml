@@ -1,19 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240110 17:03:06.237" rpa="false" schemaversion="4">
-<suite id="s1" name="Teste Lista" source="C:\Users\a871717\OneDrive - Atos\Documents\Estudos\CursoRobot\WebTesting\teste_lista.robot">
-<test id="s1-t1" name="Caso de teste da terefa de variável do tipo lista" line="8">
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240110 17:20:38.624" rpa="false" schemaversion="4">
+<suite id="s1" name="Teste Dicionario" source="C:\Users\a871717\OneDrive - Atos\Documents\Estudos\CursoRobot\WebTesting\teste_dicionario.robot">
+<test id="s1-t1" name="Caso de teste da terefa de variável do tipo Dicionário" line="8">
 <kw name="Uma keyword qualquer">
 <kw name="Log To Console" library="BuiltIn">
-<arg>O primeiro mês do ano é: ${MESES[0]}. O segundo mês do ano é: ${MESES[1]}. O terceiro mês do ano é: ${MESES[2]}. O quarto mês do ano é: ${MESES[3]}. O quinto mês do ano é: ${MESES[4]}. O sexto mês do ano é: ${MESES[5]}. O sétimo mês do ano é: ${MESES[6]}. O oitavo mês do ano é: ${MESES[7]}. O nono mês do ano é: ${MESES[8]}. O décimo mês do ano é: ${MESES[9]}. O décimo primeiro mês do ano é: ${MESES[10]}. O décimo segundo mês do ano é: ${MESES[11]}.</arg>
+<arg>Janeiro tem: ${QTD_DIAS_MES.Janeiro}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240110 17:03:06.270" endtime="20240110 17:03:06.275"/>
+<status status="PASS" starttime="20240110 17:20:38.656" endtime="20240110 17:20:38.657"/>
 </kw>
-<status status="PASS" starttime="20240110 17:03:06.270" endtime="20240110 17:03:06.275"/>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fevereiro tem: ${QTD_DIAS_MES.Fevereiro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.657" endtime="20240110 17:20:38.658"/>
 </kw>
-<status status="PASS" starttime="20240110 17:03:06.269" endtime="20240110 17:03:06.275"/>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Março tem: ${QTD_DIAS_MES.Março}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.658" endtime="20240110 17:20:38.658"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Abril tem: ${QTD_DIAS_MES.Abril}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.658" endtime="20240110 17:20:38.659"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Maio tem: ${QTD_DIAS_MES.Maio}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.659" endtime="20240110 17:20:38.660"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Junho tem: ${QTD_DIAS_MES.Junho}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.660" endtime="20240110 17:20:38.661"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Julho tem: ${QTD_DIAS_MES.Julho}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.661" endtime="20240110 17:20:38.662"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Agosto tem: ${QTD_DIAS_MES.Agosto}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.662" endtime="20240110 17:20:38.663"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Setembro tem: ${QTD_DIAS_MES.Setembro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.663" endtime="20240110 17:20:38.663"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Outubro tem: ${QTD_DIAS_MES.Outubro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.663" endtime="20240110 17:20:38.664"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Novembro tem: ${QTD_DIAS_MES.Novembro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.664" endtime="20240110 17:20:38.665"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Dezembro tem: ${QTD_DIAS_MES.Dezembro}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20240110 17:20:38.665" endtime="20240110 17:20:38.666"/>
+</kw>
+<status status="PASS" starttime="20240110 17:20:38.656" endtime="20240110 17:20:38.667"/>
+</kw>
+<status status="PASS" starttime="20240110 17:20:38.655" endtime="20240110 17:20:38.667"/>
 </test>
 <doc>Tarefa de variável do tipo LISTAS</doc>
-<status status="PASS" starttime="20240110 17:03:06.240" endtime="20240110 17:03:06.277"/>
+<status status="PASS" starttime="20240110 17:20:38.627" endtime="20240110 17:20:38.669"/>
 </suite>
 <statistics>
 <total>
@@ -22,7 +77,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Teste Lista">Teste Lista</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="Teste Dicionario">Teste Dicionario</stat>
 </suite>
 </statistics>
 <errors>
